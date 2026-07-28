@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy Project &apos;0_led_toggle_addr&apos;" description="Copy Project &apos;0_led_toggle_addr&apos;" destination="C:/Users/victo/Documents/stm32_baremetal/documentation" element="/0_led_toggle_addr" flags="7" id="org.eclipse.ltk.core.refactoring.copyproject.resource" name="1_led_toggle_addr_struct" stamp="1785271174918"/>
+</session>
