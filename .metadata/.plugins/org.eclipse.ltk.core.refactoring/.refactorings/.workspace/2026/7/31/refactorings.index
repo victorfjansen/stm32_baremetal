@@ -1,3 +1,6 @@
 1785271174918	Copy Project '0_led_toggle_addr'
 1785281041592	Delete resource '2_gpio_output'
 1785294408148	Copy Project '2_gpio_output'
+1785295288425	Copy Project '3_gpio_bsrr'
+1785334580728	Copy Project '4_gpio_input'
+1785334589011	Delete resource '5_uart_tx'
