@@ -206,3 +206,14 @@ COM3
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-07-29 11:16:22.633
 !MESSAGE Indexed '5_uart_tx' (3 sources, 62 headers) in 0.538 sec: 3,271 declarations; 5,457 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-29 11:17:38.637
+!MESSAGE Indexed '5_uart_tx' (3 sources, 62 headers) in 0.317 sec: 3,271 declarations; 5,457 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-29 15:05:53.105
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM3
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-29 15:05:53.106
+!MESSAGE port: COM3
