@@ -1,0 +1,10 @@
+15:19:54 **** Incremental Build of configuration Debug for project 6_uart_printer ****
+make -j22 all 
+arm-none-eabi-size  6_uart_printer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5192	     92	   1900	   7184	   1c10	6_uart_printer.elf
+Finished building: default.size.stdout
+ 
+
+15:19:54 Build Finished. 0 errors, 0 warnings. (took 143ms)
+

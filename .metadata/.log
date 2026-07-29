@@ -217,3 +217,13 @@ COM3
 
 !ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-29 15:05:53.106
 !MESSAGE port: COM3
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-29 15:16:20.902
+!MESSAGE Indexed '6_uart_printer' (4 sources, 62 headers) in 0.482 sec: 3,317 declarations; 5,615 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-29 15:38:17.829
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-07-29 15:38:17.829
+!MESSAGE port: 
