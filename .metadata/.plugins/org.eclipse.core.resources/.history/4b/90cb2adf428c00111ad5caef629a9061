@@ -1,0 +1,13 @@
+#define ADC1EN 		(1U<<8)
+
+void pa1_adc_init(void) {
+	/****Configure the ADC GPIO pin module****/
+
+
+	/*Enable clock access to gpioa*/
+	/*Set the mode of PA1 to analog mode*/
+
+	/***Configure the ADC module****/
+	/*Enabling ADC clock access to adc module*/
+	/*Configure adc parameters*/
+}

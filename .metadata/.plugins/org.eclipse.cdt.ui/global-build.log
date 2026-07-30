@@ -1,21 +1,21 @@
-19:18:50 **** Incremental Build of configuration Debug for project 8_uart_rx ****
+17:39:06 **** Incremental Build of configuration Debug for project 9_adc ****
 make -j22 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DSTM32F446xx -c -I../Inc -I"C:/Users/victo/Documents/stm32_baremetal/documentation/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/victo/Documents/stm32_baremetal/documentation/chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "8_uart_rx.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\victo\Documents\stm32_baremetal\documentation\8_uart_rx\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="8_uart_rx.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 8_uart_rx.elf
+arm-none-eabi-gcc -o "9_adc.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\victo\Documents\stm32_baremetal\documentation\9_adc\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="9_adc.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 9_adc.elf
  
-arm-none-eabi-size  8_uart_rx.elf 
-arm-none-eabi-objdump -h -S 8_uart_rx.elf  > "8_uart_rx.list"
+arm-none-eabi-size  9_adc.elf 
+arm-none-eabi-objdump -h -S 9_adc.elf  > "9_adc.list"
    text	   data	    bss	    dec	    hex	filename
-   1160	      0	   1568	   2728	    aa8	8_uart_rx.elf
+   5384	     92	   1908	   7384	   1cd8	9_adc.elf
 Finished building: default.size.stdout
  
-Finished building: 8_uart_rx.list
+Finished building: 9_adc.list
  
-19:18:56 **** Incremental Build of configuration Debug for project 8_uart_rx ****
+17:39:39 **** Incremental Build of configuration Debug for project 9_adc ****
 make -j22 all 
-arm-none-eabi-size  8_uart_rx.elf 
+arm-none-eabi-size  9_adc.elf 
    text	   data	    bss	    dec	    hex	filename
-   1160	      0	   1568	   2728	    aa8	8_uart_rx.elf
+   5384	     92	   1908	   7384	   1cd8	9_adc.elf
 Finished building: default.size.stdout
  

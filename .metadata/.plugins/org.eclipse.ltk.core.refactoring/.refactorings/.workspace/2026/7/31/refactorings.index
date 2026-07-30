@@ -13,3 +13,5 @@
 1785361531134	Copy Project '7_uart_modular'
 1785361549303	Delete resource '8_uart_rx/7_uart_modular Debug.launch'
 1785361555523	Delete 3 resources
+1785432692611	Copy Project '8_uart_rx'
+1785443999836	Delete resource '9_adc/8_uart_rx Debug.launch'

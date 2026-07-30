@@ -1,0 +1,33 @@
+#include "stm32f4xx.h"
+
+#define GPIOAEN			(1U<<0)
+#define ADC1EN 			(1U<<8)
+
+#define ADC_CH1			(1U<<0)
+#define ADC_SEQ_LEN_1 	(0x00)
+
+void pa1_adc_init(void) {
+	/****Configure the ADC GPIO pin module****/
+	/*Enable clock access to gpioa*/
+	RCC->AHB1ENR |= GPIOAEN;
+	/*Set the mode of PA1 to analog mode*/
+	// to gpioa, moder1 is pin 3 to 1 and pin 2 to 1;
+	GPIOA->MODER |= (1U<<2);
+	GPIOA->MODER |= (1U<<3);
+
+	/***Configure the ADC module****/
+	/*Enabling ADC clock access to adc module*/
+	RCC->APB2ENR |= ADC1EN;
+
+	/*conversion sequence start*/
+	ADC1->SQR3 = ADC_CH1;
+
+	/*Conversion sequence length*/
+	// we change it on SQR1 (which haves the length sequence size).
+	// But for one channel, the value is 0b 0000 0000
+	// So I'll just set the bit 20 to 0;
+
+	ADC1->SQR1 = ADC_SEQ_LEN_1;
+
+	/*enable adc module*/
+}

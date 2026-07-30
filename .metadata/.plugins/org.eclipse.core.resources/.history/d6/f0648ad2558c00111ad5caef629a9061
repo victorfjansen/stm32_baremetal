@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include "uart.h"
+#include "adc.h"
+
+int main(void) {
+
+
+	uart2_tx_init();
+
+	while(1) {
+
+
+	}
+
+}
+
+
