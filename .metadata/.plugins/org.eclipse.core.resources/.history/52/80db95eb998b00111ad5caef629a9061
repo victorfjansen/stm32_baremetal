@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include "uart.h"
+
+int main(void) {
+	uart2_rxtx_init();
+
+	while(1) {
+		printf("Hello from STM32F4... ");
+	}
+
+}
+
+

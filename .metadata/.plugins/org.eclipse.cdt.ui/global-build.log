@@ -1,21 +1,21 @@
-18:32:51 **** Incremental Build of configuration Debug for project 7_uart_modular ****
+19:18:50 **** Incremental Build of configuration Debug for project 8_uart_rx ****
 make -j22 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DSTM32F446xx -c -I../Inc -I"C:/Users/victo/Documents/stm32_baremetal/documentation/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/victo/Documents/stm32_baremetal/documentation/chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "7_uart_modular.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\victo\Documents\stm32_baremetal\documentation\7_uart_modular\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="7_uart_modular.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 7_uart_modular.elf
+arm-none-eabi-gcc -o "8_uart_rx.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\victo\Documents\stm32_baremetal\documentation\8_uart_rx\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="8_uart_rx.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 8_uart_rx.elf
  
-arm-none-eabi-size  7_uart_modular.elf 
-arm-none-eabi-objdump -h -S 7_uart_modular.elf  > "7_uart_modular.list"
+arm-none-eabi-size  8_uart_rx.elf 
+arm-none-eabi-objdump -h -S 8_uart_rx.elf  > "8_uart_rx.list"
    text	   data	    bss	    dec	    hex	filename
-   5196	     92	   1900	   7188	   1c14	7_uart_modular.elf
+   1160	      0	   1568	   2728	    aa8	8_uart_rx.elf
 Finished building: default.size.stdout
  
-Finished building: 7_uart_modular.list
+Finished building: 8_uart_rx.list
  
-18:33:21 **** Incremental Build of configuration Debug for project 7_uart_modular ****
+19:18:56 **** Incremental Build of configuration Debug for project 8_uart_rx ****
 make -j22 all 
-arm-none-eabi-size  7_uart_modular.elf 
+arm-none-eabi-size  8_uart_rx.elf 
    text	   data	    bss	    dec	    hex	filename
-   5196	     92	   1900	   7188	   1c14	7_uart_modular.elf
+   1160	      0	   1568	   2728	    aa8	8_uart_rx.elf
 Finished building: default.size.stdout
  
