@@ -433,3 +433,6 @@ java.lang.Exception: Resource '/9_adc' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-07-30 20:16:48.865
 !MESSAGE Indexed '10_adc_continuous_conversion' (6 sources, 68 headers) in 0.57 sec: 3,486 declarations; 6,041 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-30 20:41:37.999
+!MESSAGE Indexed '11_systick_delay' (6 sources, 68 headers) in 0.619 sec: 3,486 declarations; 6,055 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)

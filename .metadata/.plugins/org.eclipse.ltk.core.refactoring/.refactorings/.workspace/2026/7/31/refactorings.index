@@ -17,3 +17,5 @@
 1785443999836	Delete resource '9_adc/8_uart_rx Debug.launch'
 1785453357304	Rename resource '9_adc'
 1785453407288	Copy Project '9_adc_single_conversion'
+1785454896865	Copy Project '10_adc_continuous_conversion'
+1785454902652	Delete resource '11_systick_delay/9_adc Debug.launch'
