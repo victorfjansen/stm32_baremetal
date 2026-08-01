@@ -1,0 +1,16 @@
+#include "stm32f4xx.h"
+
+#define TIM2_EN			(1U<<0)
+#define TIM2_PSC		1600 - 1
+
+void tim2_1hz_init(void) {
+	/*enable clock access to timer 2*/
+	RCC->APB1ENR |= TIM2EN;
+
+	/*Set the prescaler value*/
+	TIM2->PSC = TIM2_PSC;
+
+	/* set autreload value */
+	/* clear the timer counter */
+	/*Enable the timer*/
+}
