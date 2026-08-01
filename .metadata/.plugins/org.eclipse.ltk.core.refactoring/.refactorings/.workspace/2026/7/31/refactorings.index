@@ -19,3 +19,13 @@
 1785453407288	Copy Project '9_adc_single_conversion'
 1785454896865	Copy Project '10_adc_continuous_conversion'
 1785454902652	Delete resource '11_systick_delay/9_adc Debug.launch'
+1785518581694	Copy Project '11_systick_delay'
+1785521798719	Copy Project '12_timers'
+1785521806228	Delete resource '13_output_compare_timer/12_timers Debug.launch'
+1785525734978	Rename resource '13_output_compare_timer'
+1785525740190	Rename resource '12_timers'
+1785525788084	Rename resource '12_timers1'
+1785525879041	Delete resource '13_output_compare_timer/12_timers Debug.launch'
+1785525887505	Delete 3 resources
+1785526300330	Delete 12 resources
+1785526319489	Delete resource '12_timers/12_timers1 Debug.launch'
